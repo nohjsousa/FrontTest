@@ -1,19 +1,64 @@
-.ocean { //telalogin
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 45%;
-    //background-color: blue;
+//Import Font
+@import url('https://fonts.googleapis.com/css?family=Mukta:300,400,700&display=swap');
 
-    .waves{ //cadastro
-        position: absolute;
-        top: -100px;
-        left: 0;
-        right: 0;
-        height: 100px;
-        //background-image: url('.../assets/img/bg-front.png');
-        background-size: contain;
-        transition: all 0.5
-  }
+//Global
+*{
+  font-family: 'Mukta', sans-serif;
 }
+.login{
+  top: 10%;
+  
+  
+}
+
+.titleEntrar {
+  right: 10px;
+  font: Bold 29px/27px Open Sans;
+}
+
+.EsqueceuSenha{
+  text-align: left;
+  font: Bold 12px/27px Mukta;
+  letter-spacing: -0.08px;
+  color: #585859;
+  opacity: 1;
+}
+
+
+.buttonEntrar {
+  border-radius: 36px;
+  font: Bold 18px/30px Mukta;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+
+.logo {
+  width: 10%;
+}
+//Campos para digitar no form.
+.ion-margin-top {
+  width: 100%;
+  height: 40px;
+  color: #fff;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #C2C2C2;
+  border-radius: 6px;
+  opacity: 1;
+}
+
+.NaoTemConta{
+  text-align: left;
+  font: Regular 16px/27px Mukta;
+  letter-spacing: -0.11px;
+  color: #0077C5;
+  opacity: 1;
+}
+
+.footerImg {
+  
+  width: 1063px;
+
+}
+
