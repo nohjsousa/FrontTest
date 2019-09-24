@@ -5,25 +5,24 @@
   <form #form="ngForm" (ngSubmit)="login(form)" method="post">
     <ion-item class="ion-margin-top" lines="nome">
       <ion-label position="floating"></ion-label>
-      <ion-input ngModel type="email" name="email" placeholder="Email"></ion-input>
+      <ion-input ngModel type="email" name="email" placeholder="E-mail"></ion-input>
     </ion-item>
   
     <ion-item class="ion-margin-top">
       <ion-label position="floating"></ion-label>
-      <ion-input ngModel type="password" name="password" placeholder="Senha"></ion-input>
+      <ion-input  class="logonEntrar" ngModel type="password" name="password" placeholder=" Senha">
+        <ion-icon class="eye" name="eye"></ion-icon>
+      </ion-input>
     </ion-item>
   
     <p class="EsqueceuSenha" text-right>ESQUECEU A SENHA?</p>
   
-    <ion-button class="buttonEntrar" type="submit"  color="tertiary" expand="full"> Entrar</ion-button>
+    <ion-button class="botaoEntrar" href="#home" type="submit"  color="tertiary" shape="round" expand="block" [routerLink]="['/home']"> Entrar</ion-button>
   </form>
   <p class="NaoTemConta"text-center>Não tem uma conta? Cadastre-se</p>
-  <img class="footerImg" src="../assets/img/bg-front.png">
+  <!--<img class="footerImg" src="../assets/img/bg-front.png"> -->
 
-
-  <div class="imagem-wrapper">
-      <img class="imagem" src="http://i.stack.imgur.com/gL1sB.jpg">
-  </div>
+ 
 
 
 </ion-content>
