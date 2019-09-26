@@ -1,0 +1,106 @@
+//Import Font
+@import url("https://fonts.googleapis.com/css?family=Mukta:200,300,400,500,600,700&display=swap" rel="stylesheet");
+
+//Global
+*{
+  font-family: 'Mukta', sans-serif;
+}
+
+.bg-img {
+    position: absolute;
+    bottom: 55%;
+    overflow:hidden;
+}
+.bg-front-test {
+    position: absolute;
+    overflow: hidden;
+    width: 40%;
+    left: 100px;
+    right: 100px;
+    top: 40px;
+}
+.test-ipsum {
+    position: absolute;
+    top: 65px;
+    left: 45px;
+    width: 70%;
+    text-align: center;
+    font: Bold 8px/15px Mukta;
+    letter-spacing: 0;
+    color: #ffffff;
+    opacity: 1;
+}
+.botaoSaibaMais{
+    position: absolute;
+    top: 110px;
+    left: 80px;
+    width: 100px;
+    height: 20px;
+    font: 7px/15px Mukta;
+    text-align: center;
+    opacity: 1;
+}
+.mussumIpsumCacilds1{
+    position: absolute;
+    top: 37%;
+    left: 30px;
+    width: 30%;
+    background: #ffffff;
+    height: 25%;
+    text-align: center;
+    color: #585859;
+    font: 15px/18px Mukta;
+    opacity: 1;
+}
+.mussumIpsumCacilds2{
+    position: absolute;
+    top: 35%;
+    left: 38%;
+    width: 30%;
+    background: #ffffff;
+    height: 30%;
+    text-align: center;
+    border-radius: 5px;
+    color:#585859;
+    font: 15px/18px Mukta;
+    opacity: 1;
+}
+.mussumIpsumCacilds3{
+    position: absolute;
+    top: 37%;
+    left: 65%;
+    width: 30%;
+    
+    height: 25%;
+    text-align: center;
+    color: #585859;
+    background: #ffffff;
+    font: 15px/18px Mukta;
+    opacity: 1;
+}
+.mussumIpsumCacilds1-bg-front{
+    position: relative;
+    width: 45px;
+    left: 15px;
+    top: 0px;
+}
+
+.mussumIpsumCacilds1-fingerprint{
+    position: relative;
+    width: 20px;
+    right: 18px;
+    top:-12px;
+}
+.mussumIpsumCacilds1-botton{
+    position: relative;
+    top: 5px;
+    width: 80px;
+    height: 15px;
+    left: 10px;
+    font: 7px/15px Mukta;
+    text-align: center;
+    opacity: 1;
+}
+
+
+
