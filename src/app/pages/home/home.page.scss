@@ -102,20 +102,32 @@
     text-align: center;
     opacity: 1;
 }
-.tracoLinhaHome{
-    position: absolute;
-    border-top: 1px #CDC9C9 solid;
-    left: 0;
-    top: 70%;
-}
+
 .footer{
     position: absolute;
     top: 70%;
 }
 .bg-img-footer {
-    position: absolute;
+    position: relative;
     overflow:hidden;
-    left: 50%;
+    size: 150%;
+    left: 40%;
 
     
 }
+.flexfoot{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-self: flex-start;
+    text-align: left;
+}
+
+.flexfoot > ion-col {
+    width: 100px;
+    margin: 5px;
+    font-size: 12px;
+    font-family: Makta;
+}
+

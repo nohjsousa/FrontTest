@@ -36,29 +36,46 @@ Casamentiss faiz malandris se pirulitá.
         <ion-button class="mussumIpsumCacilds1-botton" href="#" type="submit"  color="medium" fill="outline" shape="round" expand="block" (click)="showModalOne()"> Saiba mais 2</ion-button>
       </ion-col>
       
-      <!-- <ion-nav class="tracoLinhaHome"></ion-nav> -->
     </ion-row>
   </ion-grid>
+  
 
 <!-------------------------------------------------------------------------------------------------------------------------->
-
-    
-
-  
-    
-  
-
-
-
-
-
-
 </ion-content>
 <ion-footer class="footer">
-    <ion-toolbar>
-        <img class="bg-img-footer" src="../assets/img/bg-front.png"> 
-    </ion-toolbar>
-  </ion-footer>
+  <ion-row>
+    <ion-col class="flexfoot">
+      <ion-col>
+        Quem somos
+      </ion-col>
+      <ion-col>
+          Como funciona
+      </ion-col>
+      <ion-col >
+        FAQ'S
+      </ion-col>
+      <ion-col >
+        Contato
+      </ion-col>
+    </ion-col>
+    <ion-col class="flexfoot">
+      <ion-col class="botaoEntrar" href="#login" shape="round" expand="block" [routerLink]="['/login']"> Login
+      </ion-col>
+      <ion-col>
+        Cadastro
+      </ion-col>
+      <ion-col>
+        Termos de uso
+      </ion-col>
+      <ion-col>
+        Privacidade
+      </ion-col>
+    </ion-col>
+    <ion-col class="flexfoot">
+    </ion-col>
+  </ion-row>
+  <img class="bg-img-footer" src="../assets/img/bg-front.png">  
+</ion-footer>
 
 
 
