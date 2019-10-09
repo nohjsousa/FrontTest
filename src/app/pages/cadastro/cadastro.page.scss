@@ -6,10 +6,54 @@
   font-family: 'Mukta', sans-serif;
 }
 
+<<<<<<< HEAD
 //-----------------------------------------------------------------------------------------------------------------------------------//
 
 
 //------------------------------------------------------------------------------------------------------------------------------------//
+=======
+
+.titleEntrar {
+    left: 326px;
+    width: 121px;
+    height: 48px;
+    text-align: left;
+    font: Bold 29px/27px Mukta;
+    letter-spacing: -0.2px;
+    color: #585859;
+    opacity: 1;
+}
+
+
+.buttonEntrar {
+  border-radius: 36px;
+  font: Bold 18px/30px Mukta;
+  letter-spacing: 0;
+  opacity: 1;
+
+}
+
+
+.logo {
+  width: 10%;
+}
+//Campos para digitar no form.
+.ion-margin-top {
+  max-width: 100%;
+  height: 40px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #C2C2C2;
+  border-radius: 6px;
+  opacity: 1;
+  font: Regular 14px/23px Mukta;
+  padding-bottom: 5px;
+}
+
+.ion-margin-top-flex{
+    display: flex;
+    flex: row;
+}
+>>>>>>> 4e55f4dabaee5cf4f64898028f483f6fd8dce680
 
 .botaoEntrar {
   top: 427px;
@@ -20,7 +64,13 @@
   box-shadow: 0px 10px 39px #867FF67A;
   border-radius: 36px;
   opacity: 1;
+<<<<<<< HEAD
 }
+=======
+  text-align: center;
+}
+
+>>>>>>> 4e55f4dabaee5cf4f64898028f483f6fd8dce680
 .NaoTemConta{
   padding: 5%;
   text-align: center;
@@ -28,4 +78,13 @@
   letter-spacing: -0.11px;
   color: #0077C5;
   opacity: 1;
+<<<<<<< HEAD
 }
+=======
+}
+
+
+
+//------------------//
+
+>>>>>>> 4e55f4dabaee5cf4f64898028f483f6fd8dce680
