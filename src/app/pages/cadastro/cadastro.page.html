@@ -1,0 +1,68 @@
+<ion-grid>
+    <ion-row>
+        <img class="logo" src="../assets/img/front-test-logo.png">
+        <ion-toolbar>
+            <ion-title size="small">Cadastrar</ion-title>
+            <ion-title size="large">Informações Pessoais</ion-title>
+        </ion-toolbar>
+        <ion-row class="formulario">
+            <ion-col size="12">
+                <ion-item>
+                    <ion-input ngModel type="name" name="teste" placeholder="Nome/Razão Social"></ion-input>
+                </ion-item>
+            </ion-col>
+            <ion-col size="">
+                <ion-item>
+                    <ion-input ngModel type="name" name="teste" placeholder="CPF"></ion-input>
+                </ion-item>
+            </ion-col>
+            <ion-col>
+                <ion-item>
+                    <ion-input ngModel type="name" name="teste3" placeholder="Telefone"></ion-input>
+                </ion-item> 
+            </ion-col>
+            <ion-col size="12">
+                <ion-item>
+                    <ion-input ngModel type="name" name="teste" placeholder="E-mail"></ion-input>
+                </ion-item>
+            </ion-col>
+            <ion-col size="12">
+            <ion-item>
+                <ion-input ngModel type="name" name="teste" placeholder="Senha"></ion-input>
+                </ion-item>
+            </ion-col>
+        </ion-row>
+        <ion-row class="formulario">
+            <ion-toolbar>
+                <ion-title size="large">Endereço</ion-title>
+            </ion-toolbar>
+            <ion-col size="12">
+                <ion-item>
+                    <ion-input ngModel type="name" name="teste" placeholder="CEP"></ion-input>
+                </ion-item>
+            </ion-col>
+            <ion-col size="">
+                <ion-item>
+                    <ion-input ngModel type="name" name="teste" placeholder="Logradouro"></ion-input>
+                </ion-item>
+            </ion-col>
+            <ion-col>
+                <ion-item>
+                    <ion-input ngModel type="name" name="teste3" placeholder="Número"></ion-input>
+                </ion-item> 
+            </ion-col>
+            <ion-col size="12">
+                <ion-item>
+                    <ion-input ngModel type="name" name="teste" placeholder="Bairro"></ion-input>
+                </ion-item>
+
+                <ion-button class="botaoEntrar" href="#login" type="submit"  color="tertiary" shape="round" expand="block" [routerLink]="['/login']"> Cadastrar</ion-button>
+                <p class="EsqueceuSenha" href="#login"shape="round" expand="block" [routerLink]="['/login']" text-center>Já tem uma conta ? Faça login</p>
+            </ion-col>
+        </ion-row>
+    </ion-row>
+</ion-grid>
+     
+
+
+
