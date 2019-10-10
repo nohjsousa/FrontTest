@@ -1,3 +1,4 @@
+import { keyboard } from '@ionic-native/keyboard/ngx';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
@@ -23,4 +24,8 @@ const routes: Routes = [
   ],
   declarations: [LoginPage]
 })
-export class LoginPageModule {}
+export class LoginPageModule {
+  constructor(public keyboard: keyboard){ }
+
+  ng
+}

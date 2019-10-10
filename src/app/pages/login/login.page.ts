@@ -31,29 +31,5 @@ export class LoginPage implements OnInit {
     this.modalController.dismiss();
   }
 
-  //async registerModal() {
-   // this.dismissLogin();
-    //const registerModal = await this.modalController.create({
-     // component: //RegisterPage
-    //});
-      //return await registerModal.present();
-    }
-    
-    //login(form: NgForm) {
-      //this.authService.login(form.value.email, form.value.password).subscribe(
-        //data => {
-          //this.alertService.presentToast("Logged In");
-        //},
-        //error => {
-        //  console.log(error);
-        //},
-        //() => {
-         // this.dismissLogin();
-          //this.navCtrl.navigateRoot('/dashboard');
-       // }
-      //);
-   // }
-  
-//}
-
+}
 
