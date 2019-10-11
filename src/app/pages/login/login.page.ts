@@ -13,7 +13,18 @@ import { NgForm } from '@angular/forms';
   templateUrl: './login.page.html',
   styleUrls: ['./login.page.scss'],
 })
-export class LoginPage implements OnInit {
+export class LoginPage {
+
+  //integração com o FireBase
+  loginForm = {
+    email:'',
+    password: ''
+  }
+  registerForm = {
+    email:'',
+    password: ''
+  }
+  //Fim de interação com o fireBase
 
   constructor(
     private modalController: ModalController,
@@ -21,8 +32,6 @@ export class LoginPage implements OnInit {
     private navCtrl: NavController,
     //private alertService: AlertService
   ) { }
-
-
 
   ngOnInit() {
   }

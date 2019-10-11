@@ -18,13 +18,14 @@
     <p class="EsqueceuSenha" text-right>ESQUECEU A SENHA?</p>
   
     <!-- <ion-button class="botaoEntrar" type="submit"  color="tertiary" shape="round" expand="block" [routerLink]="['/home']"> Entrar</ion-button> -->
-    <ion-button class="botaoEntrar" type="submit"  color="tertiary" expand="block" [routerLink]="['/home']"> Entrar</ion-button>
+   <ion-button class="botaoEntrar" type="submit"  color="tertiary" expand="block" shape="round" href="#home" [routerLink]="['/home']"> Entrar</ion-button>
+                
   </form>
-  <p class="NaoTemConta"text-center>Não tem uma conta? Cadastre-se</p>
+  
+  <p class="NaoTemConta" href="#cadastro" [routerLink]="['/cadastro']">Não tem uma conta? Cadastre-se</p>
+            
  
   <!-- Craindo Modal https://www.youtube.com/watch?v=Ffc3WqADsmc  -->
- 
-
 
 </ion-content>
 
